@@ -3,14 +3,19 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Pong Game",
+            "name": "Debug Pong Game",
             "request": "launch",
             "mainClass": "Main",
-            "projectName": "pong_game",
+            "projectName": "pong-game",
             "cwd": "${workspaceFolder}",
             "sourcePaths": [
                 "${workspaceFolder}/src"
-            ]
+            ],
+            "classPaths": [
+                "${workspaceFolder}/target/classes"
+            ],
+            "vmArgs": "",
+            "env": {}
         }
     ]
 } 

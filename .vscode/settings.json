@@ -1,7 +1,24 @@
 {
     "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "out",
+    "java.project.outputPath": "target/classes",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.debug.settings.hotCodeReplace": "auto",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "default"
+        }
+    ],
+    "java.import.maven.enabled": true,
+    "java.configuration.maven.userSettings": "",
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "org",
+        "com"
     ]
 } 
