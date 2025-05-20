@@ -1,4 +1,15 @@
-# Java Pong Game
+# 🏓 Java Pong Game
+
+```
+   ╭─────────╮    ⚪    ╭─────────╮
+   │         │   ╱│╲    │         │
+   │    🟦    │  ╱ │ ╲   │    🟪    │
+   │         │ ╱  │  ╲  │         │
+   ╰─────────╯    │    ╰─────────╯
+                  │
+                  │
+   Score: 0       │      Score: 0
+```
 
 A classic Pong game implementation in Java using Swing. This project features a two-player game with score tracking and smooth paddle movement.
 
