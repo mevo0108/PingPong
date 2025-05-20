@@ -10,34 +10,16 @@ A classic Pong game implementation in Java using Swing. This project features a 
 - Increasing difficulty as the game progresses
 - Modern UI with different colors for each player
 
+## Quick Start (Recommended)
+
+1. Download the latest release from [here](https://github.com/mevo0108/PingPong/releases/latest)
+2. Extract the ZIP file
+3. Double-click `run-pong.bat` to start the game
+
 ## Prerequisites
 
-- Java Development Kit (JDK) 8 or higher
-- Visual Studio Code (recommended) or any Java IDE
-- VS Code Extensions (if using VS Code):
-  - Extension Pack for Java
-  - Debugger for Java
-
-## Setup and Running
-
-### Using VS Code (Recommended)
-
-1. Clone or download this repository
-2. Open the project in VS Code
-3. Install the required VS Code extensions if not already installed
-4. Press F5 or use the Run and Debug menu to start the game
-
-### Using Command Line
-
-1. Navigate to the project directory
-2. Compile the code:
-   ```bash
-   javac src/Main.java
-   ```
-3. Run the game:
-   ```bash
-   java -cp src Main
-   ```
+- Java Runtime Environment (JRE) 8 or higher
+- Visual Studio Code (for development only)
 
 ## How to Play
 
@@ -58,12 +40,37 @@ A classic Pong game implementation in Java using Swing. This project features a 
 - The ball speed increases slightly after each paddle hit
 - The game continues until you close the window
 
+## For Developers
+
+### Using VS Code
+
+1. Clone or download this repository
+2. Open the project in VS Code
+3. Install the required VS Code extensions:
+   - Extension Pack for Java
+   - Debugger for Java
+4. Press F5 or use the Run and Debug menu to start the game
+
+### Using Command Line
+
+1. Navigate to the project directory
+2. Compile the code:
+   ```bash
+   javac src/Main.java
+   ```
+3. Run the game:
+   ```bash
+   java -cp src Main
+   ```
+
 ## Project Structure
 
 ```
 pong_game/
 ├── src/
 │   └── Main.java         # Main game file containing all game logic
+├── PongGame.jar         # Executable game file
+├── run-pong.bat         # Easy launcher for Windows
 ├── .vscode/             # VS Code configuration files
 │   ├── launch.json      # Debug and run configuration
 │   └── settings.json    # Project settings
@@ -83,9 +90,9 @@ This project is open source and available for educational purposes.
 
 ## Contributing
 
-Feel free to fork this project and submit pull requests for any improvements. 
+Feel free to fork this project and submit pull requests for any improvements.
 
-## Demo
+## Demo and Download
 
-You can download the latest version of the game from the following link:
-[Download Latest Version](https://github.com/mevo0108/PingPong/releases/latest) 
+- [Download Latest Version](https://github.com/mevo0108/PingPong/releases/latest)
+- [View Demo Page](https://mevo0108.github.io/PingPong/) 
