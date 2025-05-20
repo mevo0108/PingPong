@@ -84,3 +84,8 @@ This project is open source and available for educational purposes.
 ## Contributing
 
 Feel free to fork this project and submit pull requests for any improvements. 
+
+## Demo
+
+You can download the latest version of the game from the following link:
+[Download Latest Version](https://github.com/mevo0108/PingPong/releases/latest) 
